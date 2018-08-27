@@ -12,7 +12,11 @@
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+  <div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
   </a>
 </div>
 
@@ -20,9 +24,13 @@
   <h2>Responsive Topnav Example</h2>
   <p>Resize the browser window to see how it works.</p>
 </div>
+<p>Click on the Menu Icon to transform it to "X":</p>
+
 
 <script>
-function myFunction() {
+function myFunction(x) {
+    x.classList.toggle("change");
+    
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
@@ -31,6 +39,7 @@ function myFunction() {
     }
 }
 </script>
+
 
 </body>
 </html>
