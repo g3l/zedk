@@ -84,9 +84,25 @@ body {
         float: right;
         font-size: 100%;
         font-weight: bold;
-        padding: 1px 5px;
     }
     /* icon to hide navbar on small screens*/
     .topnav .icon{
     padding: 0.5px 5px;
+    }
+
+    /*navbar above. content below*/
+
+    /*footer links*/
+    .socialmedia img{
+    max-width: 10%;
+    }
+    .socialmedia{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+    }
+    .socialmedia
+    li {
+        float: right;
     }
