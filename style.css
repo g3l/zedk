@@ -25,7 +25,7 @@ body {
 
 .active {
   background-color: #4CAF50;
-  color: white;
+  color: red;
 }
 
 .topnav .icon {
@@ -61,7 +61,7 @@ body {
 
 .bar1, .bar2, .bar3 {
     width: 35px;
-    height: 5px;
+    height: 6px;
     background-color: white;
     margin: 6px 0;
     transition: 0.4s;
@@ -78,3 +78,15 @@ body {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
+#navlogo{
+        text-decoration: line-through;
+        text-transform: uppercase;
+        float: right;
+        font-size: 100%;
+        font-weight: bold;
+        padding: 1px 5px;
+    }
+    /* icon to hide navbar on small screens*/
+    .topnav .icon{
+    padding: 0.5px 5px;
+    }

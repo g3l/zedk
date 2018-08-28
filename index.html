@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+  <!-- <link rel="shortcut icon" type="image/png" href="images/logo.PNG" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>ZED.K</title>
 </head>
+
 <body>
 
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <div class="container" onclick="myFunction(this)">
-  <div class="bar1"></div>
-  <div class="bar2"></div>
-  <div class="bar3"></div>
-</div>
-  </a>
-</div>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="#" id="navlogo">zed.k
+      <!--<img src="images/logo.PNG" alt="ZED.K LOGO" style="height: 15px;">-->
+    </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </a>
+  </div>
 
-<div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
-</div>
-<p>Click on the Menu Icon to transform it to "X":</p>
+  <div style="padding-left:16px">
+    <h2>Responsive Topnav Example</h2>
+    <p>Resize the browser window to see how it works.</p>
+  </div>
+  <p>Click on the Menu Icon to transform it to "X":</p>
 
 
-<script>
-function myFunction(x) {
-    x.classList.toggle("change");
-    
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
         x.className += " responsive";
-    } else {
+      } else {
         x.className = "topnav";
+      }
     }
-}
-</script>
+  </script>
 
 
 </body>
+
 </html>
