@@ -34,7 +34,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+  .topnav a.icon, #navlogo {
     float: right;
     display: block;
   }
@@ -45,6 +45,11 @@ body {
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
+    top: 0;
+  }
+  #navlogo{
+    position: absolute;
+    right: 250px;
     top: 0;
   }
   .topnav.responsive a {
@@ -81,10 +86,10 @@ body {
 #navlogo{
         text-decoration: line-through;
         text-transform: uppercase;
-        float: right;
         font-size: 100%;
         font-weight: bold;
     }
+
     /* icon to hide navbar on small screens*/
     .topnav .icon{
     padding: 0.5px 5px;
