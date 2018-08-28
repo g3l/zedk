@@ -61,11 +61,6 @@ body {
   }
 }
 
-.container {
-    display: inline-block;
-    cursor: pointer;
-}
-
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 6px;
@@ -92,7 +87,10 @@ body {
         font-weight: bold;
         float: right
     }
-
+#discount10{
+  text-align: center;
+  text-transform: uppercase
+}
     /* icon to hide navbar on small screens*/
     .topnav .icon{
     padding: 0.5px 5px;
@@ -101,16 +99,20 @@ body {
     /*navbar above. content below*/
 
     /*footer links*/
-    .socialmedia img{
-    max-width: 10%;
-    }
-    .socialmedia{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-    }
-    .socialmedia
-    li {
-        float: right;
-    }
+    .footer {
+      position: static;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #333;
+      text-align: center;
+   }
+    ul#footerlist li, img{
+      display:inline;
+      max-width: 30px;
+      padding-right: 10px;
+  }
+  ul#footerlist .ftext{
+      color: #f2f2f2;
+      text-decoration: unset;
+  }
