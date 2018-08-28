@@ -49,8 +49,10 @@ body {
   }
   #navlogo{
     position: absolute;
-    right: 250px;
+    right: 35%;
     top: 0;
+    background-color: black;
+    color: white
   }
   .topnav.responsive a {
     float: none;
@@ -88,6 +90,7 @@ body {
         text-transform: uppercase;
         font-size: 100%;
         font-weight: bold;
+        float: right
     }
 
     /* icon to hide navbar on small screens*/
